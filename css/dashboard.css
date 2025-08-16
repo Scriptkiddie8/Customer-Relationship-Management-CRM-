@@ -1,0 +1,278 @@
+/* dashboard.css */
+
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+
+  color: #333;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container-leads th,
+.table-container-leads td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.table-container-leads th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+}
+
+.table-container-leads tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Form Styling */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+form label {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+form input[type="date"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input[type="date"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s ease;
+}
+.head-Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Container Layout */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  max-width: 1200px;
+  margin: 0 10px;
+
+  grid-template-rows: auto 1fr;
+  animation: fadeInUp 1s ease-in-out;
+}
+/* Table Container */
+.table-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  height: 600px;
+}
+.table {
+  overflow-y: auto;
+  height: 80%;
+  padding: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+}
+
+.table-container th,
+.table-container td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.table-container th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+}
+
+.table-container tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.table-container tr.missed-followup {
+  background-color: #ffe6e6;
+  animation: blink 1s linear infinite;
+}
+
+/* Chart Containers */
+
+.chart-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  height: 600px;
+}
+.chart-head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bar-chart-container,
+.sales-chart-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Progress Chart on Right Side */
+.progress-chart-container {
+  grid-column: 2 / 3;
+  height: 100%; /* Full height of its grid cell */
+}
+
+/* Other Charts */
+.bar-chart-container,
+.sales-chart-container {
+  height: 600px; /* Fixed height */
+  margin-top: 20px; /* Space between charts */
+  width: 80%;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: #ffe6e6;
+  }
+  50% {
+    background-color: #ffcccc;
+  }
+  100% {
+    background-color: #ffe6e6;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .table-container {
+    font-size: medium;
+    width: 100%;
+  }
+  .table {
+    height: 70%;
+  }
+  .chart-container {
+    width: 100%;
+  }
+  .bar-chart-container {
+    width: 100%;
+  }
+  .sales-chart-container {
+    width: 100%;
+  }
+  .chart-head {
+    width: 100%;
+  }
+  .productivityChart {
+    width: 100%;
+    height: 80%;
+  }
+  form {
+    width: 100%;
+  }
+  .form-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-two {
+    display: flex;
+    flex-direction: column;
+  }
+}

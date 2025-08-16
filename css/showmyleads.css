@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.leads-container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.btn-home,
+.btn-back {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-home:hover,
+.btn-back:hover {
+  background-color: #0056b3;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar form {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-bar input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Highlight Rows by Progress */
+.progress-lost {
+  background-color: #f8d7da;
+}
+
+.progress-not-interested {
+  background-color: #f8d7da;
+}
+
+.progress-follow-up {
+  background-color: #fff3cd;
+}
+
+.progress-buys {
+  background-color: #d4edda;
+}
+
+.progress-didnt-connect {
+  background-color: #f8d7da;
+}
+
+.progress-first-call-done {
+  background-color: #fff3cd;
+}
+
+.progress-quote-sent {
+  background-color: #d4edda;
+}
+
+.progress-converted {
+  background-color: #d4edda;
+}
+
+.progress-not-started {
+  background-color: #f1f1f1;
+}

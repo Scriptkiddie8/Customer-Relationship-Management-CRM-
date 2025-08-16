@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* Container Layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  gap: 30px;
+}
+leads{
+      flex: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 100vh;
+    width:45%;
+  
+}
+
+/* New Leads Section (Left Side) */
+.new-leads-section {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  width:100%;
+  
+  height: 85%; /* 80% of viewport height */
+  /* Scrollable if content overflows */
+}
+
+/* Follow-up Table (Right Side) */
+.Followup {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 80vh; /* 80% of viewport height */
+  overflow-y: auto; /* Scrollable */
+width:45vw;
+}
+
+/* Table Styling */
+.Followup table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Followup th,
+.Followup td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  
+}
+
+.Followup th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+}
+
+.Followup tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.Followup tr.missed-followup {
+  background-color: #ffe6e6;
+  animation: blink 1s linear infinite;
+}
+
+/* Animations */
+@keyframes blink {
+  0% {
+    background-color: #ffe6e6;
+  }
+  50% {
+    background-color: #ffcccc;
+  }
+  100% {
+    background-color: #ffe6e6;
+  }
+}

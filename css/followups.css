@@ -1,0 +1,51 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr.lead-status-new {
+    background-color: white;
+}
+
+tr.lead-status-follow-up {
+    background-color: blue;
+    color: white;
+}
+
+tr.lead-status-contacted {
+    background-color: orange;
+    color: white;
+}
+
+tr.lead-status-completed {
+    background-color: green;
+    color: white;
+}
+
+tr.lead-status-lost {
+    background-color: red;
+    color: white;
+}

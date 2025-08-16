@@ -1,0 +1,252 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  justify-content: space-around;
+}
+.nextHead {
+  width: 40%;
+  margin: 10px;
+  padding: 20px;
+  background: #fff;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.center-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 40%;
+  height: 100%;
+}
+
+.lead-action-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Error and Success Messages */
+.errors {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.errors ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.errors li {
+  margin-bottom: 5px;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Timeline/Logs */
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline li {
+  background: #e9ecef;
+  border-left: 4px solid #007bff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.timeline li strong {
+  color: #333;
+}
+
+.timeline li:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+/* Lead Details Container */
+/* Container to center content */
+.center-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px; /* Add padding to prevent content from touching the edges on smaller screens */
+}
+
+/* Lead Details Container */
+.lead-details {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 80px;
+  width: 100%;
+  max-width: 800px; /* Adjust the max-width as needed */
+}
+
+/* Heading Style */
+.lead-details h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+/* Paragraph Style */
+.lead-details p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Strong Tag Style */
+.lead-details p strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Link Style */
+.lead-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.lead-details a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Responsive Design */
+@media (max-width: 768px) {
+  .lead-details {
+    padding: 15px;
+  }
+
+  .lead-details h2 {
+    font-size: 20px;
+  }
+
+  .lead-details p {
+    font-size: 14px;
+  }
+}
+ /* Lead Details Container */
+        .lead-details {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+            padding: 20px;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 800px;
+            /* Adjust the max-width as needed */
+        }
+
+        .lead-action-container {
+            margin-top: 20px;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .errors {
+            color: red;
+        }
+
+        .errors ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .errors li {
+            margin-bottom: 10px;
+        }
+
+        .timeline {
+            list-style: none;
+            padding: 0;
+        }
+
+        .timeline li {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }

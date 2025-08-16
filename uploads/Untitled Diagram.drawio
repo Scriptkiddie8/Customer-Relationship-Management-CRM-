@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
+  <diagram name="Page-1" id="jbQE6AQu73pEyWQUW5vX">
+    <mxGraphModel dx="2625" dy="2508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-1" target="xLoIDFTYk0CbhCc9GqCK-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-1" target="xLoIDFTYk0CbhCc9GqCK-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-1" value="Fresh lead" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="318" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-7" target="xLoIDFTYk0CbhCc9GqCK-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-7" target="xLoIDFTYk0CbhCc9GqCK-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-7" value="Follow-up" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="702" y="30" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-11" target="xLoIDFTYk0CbhCc9GqCK-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-11" value="Did&#39;t Connect" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="318" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-13" value="Convervted" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="902" y="30" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-15" value="Lost" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="702" y="-110" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-19" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="528" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-22" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="358" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-23" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="832" y="60" width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-24" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="752" y="-20" width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-25" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="752" y="110" width="61" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-28" target="xLoIDFTYk0CbhCc9GqCK-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="948" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="948" y="423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-28" target="xLoIDFTYk0CbhCc9GqCK-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="473" />
+              <mxPoint x="1228" y="473" />
+              <mxPoint x="1228" y="-180" />
+              <mxPoint x="763" y="-180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-28" value="Follow-up&amp;nbsp;&lt;div&gt;Same day after 2 or 3 hour&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="318" y="393" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-31" value="1. Lead Quality should not show&lt;div style=&quot;&quot;&gt;2.Follow-up Date Should not show&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3. Follow -up time should show.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="398" y="-180" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="xLoIDFTYk0CbhCc9GqCK-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="368" y="30" as="sourcePoint" />
+            <mxPoint x="418" y="-20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="418" y="30" />
+              <mxPoint x="328" y="-60" />
+              <mxPoint x="328" y="-120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-40" value="1.Follow up time should not be above 7PM&lt;div&gt;2.Fresh lead mai baki option na ho( Lost, converted, quote sent, etc).&lt;/div&gt;&lt;div&gt;3. All field should be mandatory.&lt;/div&gt;&lt;div&gt;4.Add scroll bar to time.&lt;/div&gt;&lt;div&gt;5.Did&#39;t connect m screenshot add ho.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="438" y="600" width="500" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-41" target="xLoIDFTYk0CbhCc9GqCK-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-41" target="xLoIDFTYk0CbhCc9GqCK-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="971" y="270" />
+              <mxPoint x="1108" y="270" />
+              <mxPoint x="1108" y="-130" />
+              <mxPoint x="763" y="-130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xLoIDFTYk0CbhCc9GqCK-41" value="1.cold (7 days)&lt;div&gt;2.Warm (5-6 days)&lt;/div&gt;&lt;div&gt;3.Hot (3-4 days)&lt;/div&gt;&lt;div&gt;4.Strong Hot (1-2 days&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="903.5" y="170" width="134.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0JyWl_tE0FLl---urzEA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0JyWl_tE0FLl---urzEA-2" target="xLoIDFTYk0CbhCc9GqCK-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0JyWl_tE0FLl---urzEA-2" value="Follow-up(first call done/quote sent)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="703" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0JyWl_tE0FLl---urzEA-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="xLoIDFTYk0CbhCc9GqCK-7" target="0JyWl_tE0FLl---urzEA-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="728" y="150" as="sourcePoint" />
+            <mxPoint x="778" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,52 @@
+/* Add Lead Page Styles */
+.add-lead-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+body{
+    margin-top: 50px;
+}
+.add-lead-container h2 {
+    margin-bottom: 20px;
+}
+
+.add-lead-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-lead-container form div {
+    margin-bottom: 15px;
+}
+
+.add-lead-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.add-lead-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.add-lead-container .error-message {
+    color: #dc3545;
+    font-size: 0.875em;
+}
+
+.add-lead-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-lead-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}

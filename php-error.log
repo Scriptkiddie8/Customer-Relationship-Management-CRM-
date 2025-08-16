@@ -1,0 +1,215 @@
+[07-Nov-2024 08:23:04 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:23:08 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:23:33 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:23:39 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:24:41 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:24:44 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:24:44 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:25:11 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:25:30 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:26:32 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:27:01 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:27:02 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:27:21 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:27:34 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:27:38 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:27:51 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:27:55 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:28:02 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:28:12 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:28:40 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:29:47 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:33:03 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:33:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:33:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:33:09 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:33:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:33:55 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:33:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:34:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:34:55 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:35:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, string given in C:\xampp\htdocs\CRM3.0\myleaves.php:68
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(68): mysqli_prepare('user_logout.php', 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\CRM3.0\myleaves.php(80): getEarnedLeaveBalance('user_logout.php', 27)
+#2 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 68
+[07-Nov-2024 08:35:47 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:38:06 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:38:09 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:38:22 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:39:56 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:40:01 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:43:29 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 08:43:33 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 10:03:40 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 10:04:03 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:22:46 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 00:53:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'request_id' in 'where clause' in C:\xampp\htdocs\CRM3.0\myleaves.php:178
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(178): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 178
+[07-Nov-2024 20:23:54 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:24:17 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:16:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'medical_proof_path' in 'field list' in C:\xampp\htdocs\CRM3.0\myleaves.php:196
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(196): mysqli_prepare(Object(mysqli), 'INSERT INTO lea...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 196
+[07-Nov-2024 20:49:18 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:20 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:22 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:22 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:31 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:54 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:58 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:59 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:59 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:49:59 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:50:00 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:50:08 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:50:49 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:50:53 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:21:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'medical_proof_path' in 'field list' in C:\xampp\htdocs\CRM3.0\myleaves.php:192
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(192): mysqli_prepare(Object(mysqli), 'INSERT INTO lea...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 192
+[07-Nov-2024 20:51:27 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:51:29 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:51:30 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:53:12 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:23:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'medical_proof_path' in 'field list' in C:\xampp\htdocs\CRM3.0\myleaves.php:192
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(192): mysqli_prepare(Object(mysqli), 'INSERT INTO lea...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 192
+[08-Nov-2024 01:23:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'medical_proof_path' in 'field list' in C:\xampp\htdocs\CRM3.0\myleaves.php:192
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(192): mysqli_prepare(Object(mysqli), 'INSERT INTO lea...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 192
+[07-Nov-2024 20:53:49 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:53:50 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 20:56:16 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:26:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'medical_proof_path' in 'field list' in C:\xampp\htdocs\CRM3.0\myleaves.php:196
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(196): mysqli_prepare(Object(mysqli), 'INSERT INTO lea...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 196
+[08-Nov-2024 01:27:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'medical_proof_path' in 'field list' in C:\xampp\htdocs\CRM3.0\myleaves.php:196
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(196): mysqli_prepare(Object(mysqli), 'INSERT INTO lea...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 196
+[07-Nov-2024 20:57:33 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:27:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'medical_proof_path' in 'field list' in C:\xampp\htdocs\CRM3.0\myleaves.php:196
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(196): mysqli_prepare(Object(mysqli), 'INSERT INTO lea...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 196
+[08-Nov-2024 01:27:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'medical_proof_path' in 'field list' in C:\xampp\htdocs\CRM3.0\myleaves.php:196
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(196): mysqli_prepare(Object(mysqli), 'INSERT INTO lea...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 196
+[07-Nov-2024 21:09:47 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:40:00 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'request_id' in 'where clause' in C:\xampp\htdocs\CRM3.0\myleaves.php:178
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(178): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 178
+[07-Nov-2024 21:10:05 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:47:22 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\CRM3.0\myleaves.php:198
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(198): mysqli_stmt_bind_param(Object(mysqli_stmt), 'isssssss', 26, 'harsh', 'Medical Leave', '2024-11-06', '2024-11-14', 'dkjshsaj', 'pending', '2024-11-08 01:4...', 'uploads/medical...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 198
+[07-Nov-2024 21:17:28 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 21:19:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:50:17 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\CRM3.0\myleaves.php:198
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(198): mysqli_stmt_bind_param(Object(mysqli_stmt), 'isssssss', 26, 'harsh', 'Medical Leave', '2024-11-06', '2024-11-07', 'fdff', 'pending', '2024-11-08 01:5...', 'uploads/medical...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 198
+[07-Nov-2024 21:21:22 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:51:43 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'request_id' in 'where clause' in C:\xampp\htdocs\CRM3.0\myleaves.php:205
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(205): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 205
+[07-Nov-2024 21:23:12 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[08-Nov-2024 01:53:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'request_id' in 'where clause' in C:\xampp\htdocs\CRM3.0\myleaves.php:205
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(205): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 205
+[07-Nov-2024 21:23:44 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 21:27:30 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 21:29:32 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[07-Nov-2024 21:31:55 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[09-Nov-2024 23:46:18 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[09-Nov-2024 23:46:28 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[13-Nov-2024 13:39:58 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[13-Nov-2024 13:40:09 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[13-Nov-2024 13:40:14 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[13-Nov-2024 13:40:20 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[13-Nov-2024 13:40:21 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[13-Nov-2024 13:40:22 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[19-Nov-2024 10:58:32 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[19-Nov-2024 15:29:08 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'request_id' in 'where clause' in C:\xampp\htdocs\CRM3.0\myleaves.php:205
+Stack trace:
+#0 C:\xampp\htdocs\CRM3.0\myleaves.php(205): mysqli_query(Object(mysqli), 'SELECT * FROM l...')
+#1 {main}
+  thrown in C:\xampp\htdocs\CRM3.0\myleaves.php on line 205
+[19-Nov-2024 10:59:13 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[19-Nov-2024 10:59:45 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[19-Nov-2024 11:00:50 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2
+[19-Nov-2024 11:01:13 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\CRM3.0\header.php on line 2

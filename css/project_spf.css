@@ -1,0 +1,210 @@
+.hidden { display: none; }
+        .text-danger { color: red; }
+        .text-success { color: green; }
+        .text-primary { color: #007bff; }
+        /* Base styles */
+        /* Subtask Info Styles */
+        .subtask-info {
+        padding: 20px;
+        }
+
+        /* Table styles */
+        .subtask-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 1em;
+        color: #333;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtask-table th,
+        .subtask-table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+        }
+
+        /* Header styles */
+        .subtask-table th {
+        padding: 15px;
+        background-color: #f4f4f4;
+        color: #007BFF;
+        }
+
+        /* Row styles */
+        .subtask-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+        }
+
+        .subtask-table tr:hover {
+        background-color: #e9e9e9;
+        transform: scale(1.02); /* Slightly enlarge the row on hover */
+        transition: transform 0.3s ease;
+        }
+
+        .subtask-table .status-overdue {
+        color: red;
+        }
+
+        .subtask-table .status-completed {
+        color: green;
+        }
+
+        .subtask-table .status-in-progress {
+        color: orange;
+        }
+
+        .subtask-table .highlighted {
+        background-color: #cce5ff;
+        border: 1px solid #007BFF;
+        }
+
+        /* Form styles */
+        .form-group {
+        margin-bottom: 15px;
+        }
+
+        .form-control {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        }
+
+        .btn {
+        padding: 10px 15px;
+        border-radius: 4px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        }
+
+        .btn-primary {
+        background-color: #007BFF;
+        }
+
+        .btn-warning {
+        background-color: #FFC107;
+        }
+
+        .btn-success {
+        background-color: #28A745;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+        .subtask-table th,
+        .subtask-table td {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .subtask-table th {
+            background-color: #f4f4f4;
+            color: #007BFF;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+            z-index: 1;
+        }
+
+        .subtask-table td {
+            border: none;
+            padding: 10px;
+            position: relative;
+            margin-top: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .subtask-table tr {
+            display: block;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        }
+
+        @media (max-width: 480px) {
+        .subtask-table th,
+        .subtask-table td {
+            font-size: 0.9em;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            font-size: 0.9em;
+            display: block;
+            margin-top: 5px;
+        }
+        }
+
+        /* Timeline Styles */
+        .timeline-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px 0;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 10px 0;
+        }
+
+        .timeline-table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        }
+
+        .timeline-table td:first-child {
+        font-weight: bold;
+        width: 30%;
+        }
+
+        .timeline-table .text-primary {
+        color: #007bff;
+        }
+
+        .timeline-table .text-danger {
+        color: #dc3545;
+        }
+
+        /* Responsive Styles for Timeline */
+        @media (max-width: 768px) {
+        .timeline-table td {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .timeline-table td:first-child {
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        
+        .timeline-table tr {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-table .alert-message {
+            display: none; /* Hide script message for smaller devices */
+        }
+        .timeline-table td:first-child {
+        font-weight: bold;
+        width: 100%;
+        }
+        }
+

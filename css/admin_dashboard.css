@@ -1,0 +1,257 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55); /* Sleek dark gradient */
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-size: 300% 300%;
+  animation: backgroundShift 15s ease infinite;
+  width: 100%;
+}
+
+@keyframes backgroundShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Ongoing Projects Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.08); /* Subtle background */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow for a premium feel */
+}
+
+thead {
+  background: rgba(255, 255, 255, 0.1); /* Subtle translucent effect */
+}
+
+thead th {
+  padding: 15px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #b0bec5; /* Light, muted text color */
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+tbody tr {
+  background: rgba(255, 255, 255, 0.05);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.1); /* Slight highlight on hover */
+  transform: translateY(-5px); /* Lift effect */
+}
+
+tbody td {
+  padding: 15px;
+  color: #e0e0e0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+tbody td:first-child {
+  text-align: left;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 24px;
+}
+
+.progress-bar .progress {
+  background: linear-gradient(135deg, #1de9b6, #1dc4e9); /* Sleek gradient */
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.85rem;
+  line-height: 24px;
+  transition: width 0.4s ease;
+  border-radius: inherit;
+}
+
+/* Container */
+.container {
+  width: 95%;
+  max-width: 1200px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1); /* Frosted glass effect */
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  backdrop-filter: blur(10px);
+  animation: slideUpFadeIn 1.2s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slideUpFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heading */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #eceff1; /* Lighter text */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInText 2s ease-in-out forwards;
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Popup Styles */
+.popup {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 20px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.popup:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Stat Box */
+.stat {
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.headd{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Progress Bar */
+.progress-bar {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  height: 25px;
+  position: relative;
+}
+
+.progress {
+  background: linear-gradient(to right, #1de9b6, #1dc4e9); /* Matching sleek gradient */
+  height: 100%;
+  width: 0;
+  text-align: center;
+  line-height: 25px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar:hover .progress {
+  width: 100%;
+  background: linear-gradient(to right, #2196f3, #03a9f4);
+}
+
+/* Card Styles */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* List Group Styles */
+.list-group li {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.list-group li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .popup {
+    width: 80px;
+    height: 80px;
+  }
+
+  .popup-number {
+    font-size: 1.5rem;
+  }
+
+  .progress-bar {
+    height: 20px;
+  }
+
+  .progress {
+    font-size: 0.9rem;
+  }
+}

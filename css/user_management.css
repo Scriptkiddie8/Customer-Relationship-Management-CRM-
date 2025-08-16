@@ -1,0 +1,227 @@
+/* Include FontAwesome for icons */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 67px;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+* {
+  text-decoration: none;
+}
+.adduser {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #2980b9;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.user-management-container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  animation: fadeInContainer 0.7s ease-in-out;
+  position: relative;
+}
+
+@keyframes fadeInContainer {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.user-management-container:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.user-management-container h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3498db;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  animation: fadeInTable 1.2s ease-in-out;
+}
+
+@keyframes fadeInTable {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+table th,
+table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  background-color: #f9f9f9;
+  color: #2c3e50;
+}
+
+tr:nth-child(even) td {
+  background-color: #eef2f7;
+}
+
+tr:hover td {
+  background-color: #d3e6f5;
+  color: #2c3e50;
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Adding icons to actions and other elements */
+td .btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #e67e22;
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+td .btn-primary i,
+td .btn-secondary i,
+td .btn-danger i {
+  font-size: 1.2rem;
+}
+
+/* Adding icons for table header */
+th i {
+  margin-left: 10px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+th:hover {
+  background-color: #2980b9;
+}
+
+a {
+  color: #3498db;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: #1abc9c;
+  transform: scale(1.05);
+}
+
+/* Adding smooth animations for table row appearance */
+tbody tr {
+  opacity: 0;
+  animation: rowFadeIn 0.6s forwards;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes rowFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+tbody tr:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s ease-in-out;
+}
